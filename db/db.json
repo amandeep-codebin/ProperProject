@@ -1,0 +1,167 @@
+{
+  "Products": [
+    {
+      "id": "prod1",
+      "title": "CodeBin T-shirt",
+      "image": "https://i.pinimg.com/originals/62/98/b0/6298b026a65cf80bcf9dce061e9b79c9.png",
+      "discount": 15,
+      "Description": "Special CodeBin T-shirt",
+      "Category": "Wearables",
+      "price": 450
+    },
+    {
+      "id": "prod2",
+      "title": "CodeBin Sweat Shirt",
+      "image": "https://i.pinimg.com/originals/62/98/b0/6298b026a65cf80bcf9dce061e9b79c9.png",
+      "discount": 10,
+      "Description": "Special CodeBin Sweat Shirt",
+      "Category": "Wearables",
+      "price": 900
+    },
+    {
+      "id": "prod3",
+      "title": "CodeBin Bottle",
+      "image": "https://i.pinimg.com/originals/62/98/b0/6298b026a65cf80bcf9dce061e9b79c9.png",
+      "discount": 12,
+      "Description": "Special CodeBin Bottle",
+      "Category": "Accessories",
+      "price": 450
+    },
+    {
+      "id": "prod4",
+      "title": "Keychain ",
+      "image": "https://i.pinimg.com/originals/62/98/b0/6298b026a65cf80bcf9dce061e9b79c9.png",
+      "discount": 15,
+      "Description": "Special CodeBin Keychain",
+      "Category": "Accessories",
+      "price": 450
+    },
+    {
+      "id": "324d220c-1a69-4f06-9919-55393e104353",
+      "title": "Mug",
+      "price": 500,
+      "desc": "CodeBin Mug",
+      "discount": 25,
+      "image": "https://via.placeholder.com/350,"
+    },
+    {
+      "id": "26ff9d88-3779-4e3a-92a1-223fe50d583c",
+      "title": "Pen",
+      "price": 50,
+      "desc": "CodeBin Pen",
+      "discount": 14,
+      "image": "https://via.placeholder.com/350,"
+    },
+    {
+      "id": "00f7a228-71f7-44ec-8c1e-12ba9a56fe43",
+      "title": "Football",
+      "price": 400,
+      "desc": "Best product ever",
+      "discount": 10,
+      "image": "https://via.placeholder.com/350,"
+    },
+    {
+      "id": "70d70732-3b54-48c3-8371-0151f42e55e6",
+      "title": "Charger",
+      "price": 200,
+      "desc": "Best product ever",
+      "discount": 15,
+      "image": "https://via.placeholder.com/350,"
+    },
+    {
+      "id": "prod5",
+      "title": "mobile",
+      "price": 12000,
+      "desc": "Best mobile ever",
+      "discount": 15,
+      "image": "https://via.placeholder.com/350,"
+    },
+    {
+      "id": "prod6",
+      "title": "keyboard",
+      "price": 1200,
+      "desc": "Best keyboard",
+      "discount": 10,
+      "image": "https://via.placeholder.com/350,"
+    },
+    {
+      "id": "prod7",
+      "title": "earphone",
+      "price": 399,
+      "desc": "Best quality earphone",
+      "discount": 10,
+      "image": "https://via.placeholder.com/350,"
+    }
+  ],
+  "Users": [
+    {
+      "id": "User1",
+      "name": "Aman",
+      "email": "aman@code-b.in",
+      "Password": "afsacsa$%^&^%dsb",
+      "Wishlist": [
+        "prod1"
+      ],
+      "CartId": "Cart1"
+    },
+    {
+      "id": "User2",
+      "name": "Param",
+      "email": "param@code-b.in",
+      "Password": "afsacsa$%^&^%dsb",
+      "Wishlist": [
+        "prod1"
+      ],
+      "CartId": "Cart1"
+    },
+    {
+      "id": "User3",
+      "name": "Param",
+      "email": "param@code-b.in",
+      "Password": "afsacsa$%^&^%dsb",
+      "Wishlist": [
+        "prod1"
+      ],
+      "CartId": "Cart2"
+    },
+    {
+      "id": "User4",
+      "name": "Param",
+      "email": "param@code-b.in",
+      "Password": "afsacsa$%^&^%dsb",
+      "Wishlist": [
+        "prod1"
+      ],
+      "CartId": "Cart2"
+    }
+  ],
+  "Carts": [
+    {
+      "data": {
+        "id": "Cart2",
+        "UserId": "User2",
+        "products": [
+          {
+            "ProdId": "prod7",
+            "price": 499
+          },
+          {
+            "ProdId": "prod3",
+            "price": 450
+          }
+        ]
+      },
+      "id": "Cart1"
+    },
+    {
+      "id": "Cart2",
+      "UserId": "User2",
+      "products": [
+        {
+          "ProdId": "prod7",
+          "price": 499
+        }
+      ]
+    }
+  ]
+}
